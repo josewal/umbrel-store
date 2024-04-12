@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: full-text-rss
+name: Full Text Rss
+tagline:
+icon:
+category: Social
+version: "1.0.0"
+port: 9169
+description: >-
+  Add your app's description here. You can also add newlines!
+developer:
+website:
+submitter: Josef Walek
+submission:
+repo:
+support:
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+

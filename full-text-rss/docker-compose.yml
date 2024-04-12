@@ -1,0 +1,14 @@
+services:
+  server:
+    image: "heussd/fivefilters-full-text-rss:latest"
+    restart: "on-failure"
+    environment:
+      # Leave empty to disable admin section
+      - FTR_ADMIN_PASSWORD=
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - "${APP_DATA_dir}/cache:/var/www/html/cache/rss"
+    container_name: full-text-rss_server_1
+volumes:
+  rss-cache:
