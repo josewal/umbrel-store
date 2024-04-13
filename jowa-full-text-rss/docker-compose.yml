@@ -9,5 +9,7 @@ services:
       # - FTR_ADMIN_PASSWORD=
     volumes:
       - ${APP_DATA_DIR}/cache/rss:/var/www/html/cache/rss
+    ports:
+      - "80:9169"
     container_name: full-text-rss_server_1
     restart: on-failure
