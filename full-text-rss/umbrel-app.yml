@@ -1,16 +1,16 @@
 manifestVersion: 1
 id: full-text-rss
 name: Full Text Rss
-tagline:
-icon:
+tagline: Replace this tagline with your app's tagline
+icon: https://svgur.com/i/mvA.svg
 category: Social
 version: "1.0.0"
 port: 9169
 description: >-
   Add your app's description here. You can also add newlines!
-developer:
-website:
-submitter: Josef Walek
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
 submission:
 repo:
 support:
@@ -24,4 +24,3 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-
