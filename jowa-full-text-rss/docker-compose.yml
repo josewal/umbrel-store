@@ -5,6 +5,8 @@ services:
     environment:
       # Leave empty to disable admin section
       - FTR_ADMIN_PASSWORD=
+      - PUID=1000
+      - PGID=1000
     volumes:
       - ${APP_DATA_DIR}/cache/rss:/var/www/html/cache/rss
     ports:

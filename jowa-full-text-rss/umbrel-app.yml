@@ -4,7 +4,7 @@ name: Full Text Rss
 tagline: Create full-text feed from feed or webpage URL
 icon: https://svgshare.com/i/15Ju.svg
 category: Social
-version: "1.0.0"
+version: "1.0.1"
 port: 9169
 description:
 developer:
