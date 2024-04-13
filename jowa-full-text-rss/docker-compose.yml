@@ -1,12 +1,12 @@
 services:
   server:
-    image: "heussd/fivefilters-full-text-rss:latest"
+    image: heussd/fivefilters-full-text-rss:latest
     restart: on-failure
     environment:
       # Leave empty to disable admin section
       - FTR_ADMIN_PASSWORD=
     volumes:
-      - "${APP_DATA_DIR}/cache/rss:/var/www/html/cache/rss"
+      - ${APP_DATA_DIR}/cache/rss:/var/www/html/cache/rss
     ports:
-      - "80:9169"
-    container_name: "full-text-rss_server_1"
+      - 9169:80
+    container_name: full-text-rss_server_1
