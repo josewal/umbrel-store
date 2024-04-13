@@ -1,20 +1,20 @@
 manifestVersion: 1
 id: jowa-full-text-rss
 name: Full Text Rss
-tagline: Full text rss
-icon: https://svgur.com/i/mvA.svg
+tagline: Create full-text feed from feed or webpage URL
+icon: https://svgshare.com/i/15Ju.svg
 category: Social
 version: "1.0.0"
 port: 9169
 description:
 developer:
-website:
-submitter:
+website: http://ftr.fivefilters.org/
+submitter: Josef Walek
 submission:
 repo:
 support:
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://imgur.com/TE28g67
 releaseNotes:
 dependencies: []
 path: ""
