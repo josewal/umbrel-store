@@ -4,7 +4,7 @@ services:
     restart: on-failure
     environment:
       # Leave empty to disable admin section
-      - FTR_ADMIN_PASSWORD=
+      - FTR_ADMIN_PASSWORD=$APP_PASSWORD
       - PUID=1000
       - PGID=1000
     volumes:

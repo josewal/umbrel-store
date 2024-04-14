@@ -4,19 +4,19 @@ name: Full Text Rss
 tagline: Create full-text feed from feed or webpage URL
 icon: https://svgshare.com/i/15Ju.svg
 category: Social
-version: "1.0.3"
+version: "1.0.4"
 port: 9169
-description:
-developer:
+description: An article extractor. Extract the full article content from a web page or a summary-only RSS feed. Read articles in full, in peace, in your favourite news reading application.
+developer: fivefilters
 website: http://ftr.fivefilters.org/
 submitter: Josef Walek
 submission:
 repo:
 support:
 gallery:
-  - https://imgur.com/TE28g67
+  - https://i.imgur.com/TE28g67.png
 releaseNotes:
 dependencies: []
 path: ""
 defaultUsername: ""
-defaultPassword: ""
+defaultPassword: "changeme"
