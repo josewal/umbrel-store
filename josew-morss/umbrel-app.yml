@@ -2,7 +2,7 @@ manifestVersion: 1
 id: josew-morss
 name: Morss
 tagline:
-icon:
+icon: https://svgshare.com/i/15Ju.svg
 category: Social
 version: "1.0.0"
 port: 9168
@@ -14,6 +14,7 @@ submission:
 repo:
 support:
 gallery:
+  - https://i.imgur.com/TE28g67.png
 releaseNotes:
 dependencies: []
 path: ""
