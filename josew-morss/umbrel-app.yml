@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: josew-morss
+name: Morss
+tagline:
+icon:
+category: Social
+version: "1.0.0"
+port: 9168
+description:
+developer:
+website:
+submitter: Josef Walek
+submission:
+repo:
+support:
+gallery:
+releaseNotes:
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
