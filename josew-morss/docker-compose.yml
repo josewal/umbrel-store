@@ -1,7 +1,7 @@
 services:
   server:
-    image: pictuga/morss:latest
+    image: pictuga/morss
     restart: on-failure
     ports:
-      - 9168:80
+      - 9168:8000
     container_name: morss_server
