@@ -1,20 +1,29 @@
 manifestVersion: 1
 id: josew-morss
 name: Morss
-tagline:
-icon: https://svgshare.com/i/15Ju.svg
+tagline: Turn any truncated RSS feed, into a full-text RSS feed
+icon: https://morss.it/logo.svg
 category: Social
 version: "1.0.1"
 port: 9168
-description:
-developer:
-website:
+description: >-
+  This tool's goal is to get full-text RSS feeds out of striped RSS feeds, commonly available on internet. Indeed most newspapers only make a small description available to users in their rss feeds, which makes the RSS feed rather useless. So this tool intends to fix that problem.
+
+  This tool opens the links from the rss feed, then downloads the full article from the newspaper website and puts it back in the rss feed.
+
+  Morss also provides additional features, such as: .csv and json export, extended control over output. A strength of morss is its ability to deal with broken feeds, and to replace tracking links with direct links to the actual content.
+
+  Morss can also generate feeds from html and json files (see feeds.py), which for instance makes it possible to get feeds for Facebook or Twitter, using hand-written rules (ie. there's no automatic detection of links to build feeds). Please mind that feeds based on html files may stop working unexpectedly, due to html structure changes on the target website.
+
+  Additionally morss can detect rss feeds in html pages' <meta>.
+developer: https://github.com/pictuga
+website: https://morss.it/
 submitter: Josef Walek
 submission:
-repo:
+repo: https://github.com/pictuga/morss
 support:
 gallery:
-  - https://i.imgur.com/TE28g67.png
+  - https://imgur.com/vHOz8Bq.png
 releaseNotes:
 dependencies: []
 path: ""
