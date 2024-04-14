@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: josew-morss
-name: Morss
+name: morss
 tagline: Turn any truncated RSS feed, into a full-text RSS feed
 icon: https://morss.it/logo.svg
 category: Social
