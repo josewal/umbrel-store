@@ -4,7 +4,7 @@ name: Rustdesk
 tagline:
 icon:
 category: Social
-version: "1.0.0"
+version: "1.0.1"
 port: 21114
 description:
 developer:
