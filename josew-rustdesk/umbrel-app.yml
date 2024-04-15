@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: josew-rustdesk
+name: Rustdesk
+tagline:
+icon:
+category: Social
+version: "1.0.0"
+port:
+description:
+developer:
+website:
+submitter: Josef Walek
+submission:
+repo:
+support:
+gallery:
+  - https://imgur.com/HXSDfCX.png
+releaseNotes:
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
