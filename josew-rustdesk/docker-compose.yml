@@ -6,6 +6,11 @@ services:
     command: hbbs
     volumes:
       - ./data:/root
+    ports:
+      - 21114:21114
+      - 21115:21115
+      - 21116:21116
+      - 21118:21118
     network_mode: "host"
     depends_on:
       - hbbr
@@ -16,5 +21,8 @@ services:
     command: hbbr
     volumes:
       - ./data:/root
+    ports:
+      - 21117:21117
+      - 21119:21119
     network_mode: "host"
     restart: unless-stopped
