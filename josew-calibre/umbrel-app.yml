@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: josew-calibre
+name: Calibre
+tagline: Calibre is a powerful and easy to use e-book manager
+icon: https://calibre-ebook.com/favicon.png
+category: Media
+version: "1.0.0"
+port: 9168
+description: >-
+  Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
+developer:
+website: https://calibre-ebook.com/
+submitter: Josef Walek
+submission:
+repo:
+support:
+gallery:
+  - https://lh3.googleusercontent.com/rXiQJLi7-4RUi9MPoBBBHvNkI9GmuEnhhNlsdkDLavAhH0K5R_vINazBmxOR_kc1TAT0BGEG1iLlcBU2yLV2X9Cr7BZ0tF140P2AZZ_nuRyAmtqffTQdxlVrppjW0KDVI-D-7yKG=w1080
+  - https://lh3.googleusercontent.com/hJBresjFUl0fLBYLl4vi-gZ1u-rit3MEYGp2ixRk6fmOplbNeDl-IaI-zhvkMTywkK6pnKdpeTOqIYLWDdj0rJ9NBEexJVgct2os67FzAZyFKMtQ5ypfv68AyqCQn_Dedr6aUFiU=w1080
+  - https://lh3.googleusercontent.com/bZ82kO5dVPzilWedV7BrJNzUkqGpX6nKgMOL12cJolkDmVNrefPcMxo6ik8vxBpZeltF8myT4QH7-tLe1N3BXUcfzH7AmTDMQ1qII4WBskBgezQJ8W16oo-uuE8nm-zRy20a0OF4=w1080
+  - https://lh3.googleusercontent.com/wwiG3nX9k-V4pLuJGCYlP4ylHQGJ4o63XYjqKVS1Q4l1FEumbdd003vAG_U8xN3RZS3_07MVGGuMduYg0-Dyp4pO79suuN7yBgF1TuHb3Z_YJ_HeDh69dvUwSVdSIxTLAZNcdlxh=w1080
+  - https://lh3.googleusercontent.com/Fg8YjoyfF_XVRNbfGn8xEU01B1M9RrXiB_HeD-3KCmbzAWFiPGtzrg0rEYPcxmC9qtSeOAFJWVT_yOy8h5qds549Gfa5Ish99GIlzlsU4dL5Me85-TWJnitMFGra5JCgjvWSP5AJ=w1080
+  - https://lh3.googleusercontent.com/Qvm5K8vUJiY2l5mTN8sOPeZRxJx5mrzTXWW3T5QbKvbP_dZdlnVhSDKQ789A4GD4cVgkK7h13BROWYXlTp8weza0kzHlZH33HlOxzDGv83CaoGUARwEJwK4UWRTXBkwwX7DR503Y=w1080
+releaseNotes:
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
