@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: josew-astrostation
+name: Astrostation
+tagline: astrostation
+icon:
+category:
+version: "0.0.1"
+port: 4173
+description: >-
+  astrostation
+developer: Melkeydev
+website: https://astrostation.me/
+submitter: Josef Walek
+submission:
+repo: https://github.com/josewal/astrostation
+support:
+gallery:
+releaseNotes:
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

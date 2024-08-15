@@ -1,0 +1,20 @@
+services:
+  astrostation:
+    container_name: astrostation
+    build:
+      dockerfile: ./Dockerfile
+    image: astrostation:latest
+
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PASSWORD= #optional
+      - CLI_ARGS= #optional
+    # volumes:
+    #   - ${APP_DATA_DIR}/config:/home/node/config
+    ports:
+      - 4173:4173
+    restart: unless-stopped
