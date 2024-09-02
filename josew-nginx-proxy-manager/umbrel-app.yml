@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: josew-nginx-proxy-manager
+category: networking
+name: Nginx Proxy Manager
+version: "v1.70.0"
+tagline: 
+description: >-
+	lorem
+developer: 
+website: 
+dependencies: []
+repo: 
+support: 
+port: 8240
+gallery:
+path: ""
+deterministicPassword: false
+torOnly: false
+releaseNotes: |
+  lorem
+submitter: 
+submission: 
+

@@ -1,0 +1,20 @@
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nxing-proxy-manager
+    restart: unless-stopped
+    networks:
+      - proxy
+    ports:
+      - '443:443' # Public HTTPS Port
+      - '81:81' # Admin Web Port
+
+    environment:
+      BASE_URL: "umbrel-proxy.josefwalek.com"
+      # Uncomment this if IPv6 is not enabled on your host
+      # DISABLE_IPV6: 'true'
+
+    volumes:
+      - ${APP_DATA_DIR}/data/redis:/data
+      - ${APP_DATA_DIR}/data:/data
+      - ${APP_DATA_DIR}/letsencrypt:/etc/letsencrypt
