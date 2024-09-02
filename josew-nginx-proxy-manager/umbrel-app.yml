@@ -1,21 +1,20 @@
 manifestVersion: 1
 id: josew-nginx-proxy-manager
-category: networking
-name: Nginx Proxy Manager
-tagline: reverse proxy
+name: Rustdesk
+tagline:
 icon:
-category:
-version: "0.0.1"
-port: 4173
-description: >-
-  astrostation
-developer: Melkeydev
-website: https://astrostation.me/
+category: Social
+version: "1.0.1"
+port: 21114
+description:
+developer:
+website:
 submitter: Josef Walek
 submission:
-repo: https://github.com/josewal/astrostation
+repo:
 support:
 gallery:
+  - https://imgur.com/HXSDfCX.png
 releaseNotes:
 dependencies: []
 path: ""
