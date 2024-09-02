@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: josew-nginx-proxy-manager
-name: Rustdesk
+name: Nginx Proxy Manager
 tagline:
 icon:
-category: Social
+category: Networking
 version: "1.0.1"
 port: 21114
 description:
