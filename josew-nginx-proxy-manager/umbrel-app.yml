@@ -2,22 +2,22 @@ manifestVersion: 1
 id: josew-nginx-proxy-manager
 category: networking
 name: Nginx Proxy Manager
-version: "v1.70.0"
-tagline: 
+tagline: reverse proxy
+icon:
+category:
+version: "0.0.1"
+port: 4173
 description: >-
-	lorem
-developer: 
-website: 
-dependencies: []
-repo: 
-support: 
-port: 8240
+  astrostation
+developer: Melkeydev
+website: https://astrostation.me/
+submitter: Josef Walek
+submission:
+repo: https://github.com/josewal/astrostation
+support:
 gallery:
+releaseNotes:
+dependencies: []
 path: ""
-deterministicPassword: false
-torOnly: false
-releaseNotes: |
-  lorem
-submitter: 
-submission: 
-
+defaultUsername: ""
+defaultPassword: ""
