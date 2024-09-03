@@ -4,8 +4,9 @@ services:
     container_name: nxing-proxy-manager
     restart: unless-stopped
     ports:
-      - "444:443" # Public HTTPS Port
-      - "81:80" # Admin Web Port
+      - "444:443"
+      - "880:80"
+      - "81:81" # Admin Web Port
 
     environment:
       BASE_URL: "umbrel-proxy.josefwalek.com"
