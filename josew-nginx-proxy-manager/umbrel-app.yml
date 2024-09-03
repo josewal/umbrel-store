@@ -5,7 +5,7 @@ tagline:
 icon:
 category: Networking
 version: "1.0.1"
-port: 21114
+port: 81
 description:
 developer:
 website:
