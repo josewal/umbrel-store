@@ -1,13 +1,11 @@
 services:
   app:
-    image: 'jc21/nginx-proxy-manager:latest'
+    image: "jc21/nginx-proxy-manager:latest"
     container_name: nxing-proxy-manager
     restart: unless-stopped
-    networks:
-      - proxy
     ports:
-      - '443:443' # Public HTTPS Port
-      - '81:81' # Admin Web Port
+      - "444:443" # Public HTTPS Port
+      - "81:80" # Admin Web Port
 
     environment:
       BASE_URL: "umbrel-proxy.josefwalek.com"
