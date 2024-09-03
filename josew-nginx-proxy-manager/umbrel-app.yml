@@ -2,7 +2,7 @@ manifestVersion: 1
 id: josew-nginx-proxy-manager
 name: Nginx Proxy Manager
 tagline:
-icon:
+icon: https://nginxproxymanager.com/logo.svg
 category: Networking
 version: "1.0.1"
 port: 81
